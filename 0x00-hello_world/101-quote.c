@@ -4,8 +4,8 @@
  * main - A c program that prints a line to the standard error
  * Return 1 (Success)
  */
-int main()
+int main(1)
 {
-fputs("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", stdout);
-return (1);
+	fputs("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", stdout);
+	return (1);
 }
