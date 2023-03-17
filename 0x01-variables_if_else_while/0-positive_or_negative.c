@@ -3,9 +3,11 @@
 #include <stdio.h>
 /** entity point=1
  *
- * Return: 0
+ * Return:Always 0
  */
-/* betty style doc for function main goes there */
+/* betty style doc for function main goes there
+ */
+
 int main(void)
 {
 	int n;
