@@ -12,9 +12,7 @@ int main (void)
 {
 	int ch = "_putchar";
 
-	putchat(ch);
+	putchar(ch);
 
 	return (0);
-#include <stdio.h>
-#include <unistd.h>
-#include "main.h"}
+}
