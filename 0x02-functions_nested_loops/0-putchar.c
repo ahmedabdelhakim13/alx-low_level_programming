@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <unistd.h>
+#include "main.h"
 
 /**
  * main - Entry point
@@ -13,4 +15,6 @@ int main (void)
 	putchat(ch);
 
 	return (0);
-}
+#include <stdio.h>
+#include <unistd.h>
+#include "main.h"}
