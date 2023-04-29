@@ -1,21 +1,22 @@
-#include <stdlib.h>
-#include <string.h>
-#include <stdio.h>
-#include "main.h"
+#include "lists.h"
 
 /**
- * list_len - check the code for Holberton School students.
- * @h: name of the list
- * Return: the number of nodes.
+ * list_len - Finds the number of elements in
+ *            a linked list_t list.
+ * @h: The linked list_t list.
+ * @elements: a counter var for size_t (nodes)
+ *
+ * Return: The number of elements in h.
  */
 size_t list_len(const list_t *h)
 {
-	int count = 0;
+	size_t elements = 0;
 
 	while (h)
 	{
-		count++;
+		elements++;
 		h = h->next;
 	}
-	return (count);
+
+	return (elements);
 }
